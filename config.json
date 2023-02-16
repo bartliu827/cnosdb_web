@@ -1,0 +1,47 @@
+{
+	"database": {
+		"default": {
+			"driver": "sqlite",
+			"file": "./admin.db"
+		}
+	},
+	"app_id": "2cmdKk0mQy17",
+	"language": "cn",
+	"prefix": "admin",
+	"theme": "sword",
+	"store": {
+		"path": "./uploads",
+		"prefix": "uploads"
+	},
+	"title": "GoAdmin",
+	"logo": "GoAdmin",
+	"mini_logo": "GA",
+	"index": "/",
+	"login_url": "/login",
+	"debug": true,
+	"env": "local",
+	"info_log": "/Users/adminliu/github.com/cnosdb/cnosdb_web/logs/info.log",
+	"error_log": "/Users/adminliu/github.com/cnosdb/cnosdb_web/logs/error.log",
+	"access_log": "/Users/adminliu/github.com/cnosdb/cnosdb_web/logs/access.log",
+	"session_life_time": 7200,
+	"file_upload_engine": {
+		"name": "local"
+	},
+	"login_title": "GoAdmin",
+	"login_logo": "GoAdmin",
+	"auth_user_table": "goadmin_users",
+	"bootstrap_file_path": "/Users/adminliu/github.com/cnosdb/cnosdb_web/bootstrap.go",
+	"go_mod_file_path": "/Users/adminliu/github.com/cnosdb/cnosdb_web/go.mod",
+	"asset_root_path": "./public/",
+	"url_format": {
+		"info": "/info/:__prefix",
+		"detail": "/info/:__prefix/detail",
+		"create": "/new/:__prefix",
+		"delete": "/delete/:__prefix",
+		"export": "/export/:__prefix",
+		"edit": "/edit/:__prefix",
+		"show_edit": "/info/:__prefix/edit",
+		"show_create": "/info/:__prefix/new",
+		"update": "/update/:__prefix"
+	}
+}
